@@ -53,37 +53,37 @@ The primary objectives were to:
 ## 🚀 Installation
 
 ### 1. Clone the Repository
-\`\`\`bash
+```bash
 git clone https://github.com/YOUR_USERNAME/smolvlm-realtime.git
 cd smolvlm-realtime
-\`\`\`
+```
 
 ### 2. Install PyTorch (Critical Step)
 **Do not install PyTorch via requirements.txt.** You must install the version compiled for your specific CUDA version to enable GPU acceleration.
 
 **For CUDA 11.8:**
-\`\`\`bash
+```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-\`\`\`
+```
 
 **For CUDA 12.x:**
-\`\`\`bash
+```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-\`\`\`
+```
 
 ### 3. Install Python Dependencies
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ---
 
 ## 💻 Usage
 
 #### 1. Run the Script
-\`\`\`bash
+```bash
 python smolvlm_test.py
-\`\`\`
+```
 
 #### 2. Controls
 Once the window opens, use the following keys:
