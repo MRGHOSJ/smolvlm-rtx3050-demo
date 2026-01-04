@@ -54,8 +54,8 @@ The primary objectives were to:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/smolvlm-realtime.git
-cd smolvlm-realtime
+git clone https://github.com/MRGHOSJ/smolvlm-rtx3050-demo.git
+cd smolvlm-rtx3050-demo
 ```
 
 ### 2. Install PyTorch (Critical Step)
